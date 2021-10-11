@@ -3,15 +3,16 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
 
-.navbar {
+.navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color:aquamarine;
     position: sticky;
     top: 0;
 }
@@ -21,7 +22,7 @@ html{
     margin: 20px 0px;
 }
 
-.navbar ul li {
+.navbar ul li{
 font-family: century;
 font-size: 1.1rem;
 font-weight: bold;
@@ -44,22 +45,30 @@ font-weight: bold;
     display: flex;
     flex-direction: column;
     background-color: rgba(0,0,0,0.5);
-    height: 840px;
+    height: 350px;
     justify-content: center;
     align-items: center;
-    color: white;
+    color:aquamarine;
 }
+
+
 
 #home::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-    background: url('Me.jpeg') no-repeat center center/cover;
-    height: 900px;
+    background: url('Lake\ Cumberland.jpeg') no-repeat center center/cover;
+    height: 475px;
     width: 100%;
     z-index: -1;
     opacity: .8;
+}
+#about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
 }
 .main {
     display: flex;
@@ -67,40 +76,18 @@ font-weight: bold;
     /* border: 1px solid white; */
     align-items: center;
     position: absolute;
-    top: 30%;
+    top: 40%;
     right: 10%;
 }
 
 .headings {
     font-family: century;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     margin: 40px 0px;
 }
 
-.btn {
-    padding: 10px 35px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    outline: none;
-    transition: .6s ease;
-}
 
-.btn:hover {
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white,0 0 10px white, 0 0 15px white; 
-    font-weight: bold;
-}
-#about{
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding: 25px;
-    margin-bottom: 50px;
-}
 #pic{
     display: flex;
 }
@@ -112,17 +99,21 @@ font-weight: bold;
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 10px;
+    padding: 15px;
 }
 #intro h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: rgb(95, 158, 160);
+}
+p{
+    color: cadetblue;
 }
 #portfolio{
     display: flex;
     flex-direction: column;
-    background-color: rgba 0, 0, 0, 0.9;
-    color: white;
+    background-color: antiquewhite;
+    color: aquamarine;
     align-items: center;
     padding: 20px;
 }
@@ -137,6 +128,7 @@ font-weight: bold;
     height: 249px;
     margin: 10px;
 }
+
 #services{
     display: flex;
     flex-direction: column;
@@ -160,28 +152,28 @@ font-weight: bold;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top,rgb(255,45,45)50%, white 50%);
+    background: linear-gradient(to top,rgb(0, 225, 255)50%, burlywood 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
 .box:hover{
     background-position: left bottom;
-    color: white;
+    color: rgb(255, 0, 0);
     border: none;
-    box-shadow: 0 0 20px rgb(255,45,45);
+    box-shadow: 0 0 20px (burlywood);
 }
 .box img{
 width: 80px;
 height: 80px;
-background-color: white;
+background-color: aquamarine;
 padding: 10px;
 }
 #contact{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,0.9);
-    color: white;
+    background-color: black;
+    color:aquamarine;
     padding: 20px;
 }
 .form {
@@ -215,7 +207,10 @@ padding: 10px;
 }
 #send:hover{
     cursor: pointer;
-    box-shadow: o 0 10px white;
+    box-shadow: 0 0 10px aquamarine;
 }
-
+i{
+    font-size: 100px;
+    color:rgb(0, 225, 255)
+}
 
